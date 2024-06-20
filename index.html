@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- ejercicio N°1 -->
+
+
+<div class="parte1"> 
+    <img id="warcraft1" src="./assets/img/image sola.png" onclick="cambiarBorde()">
+    
+
+</div> 
+
+
+<!-- ejercicio N°2 -->
+
+
+<h1>Selecciona tus Imagenes </h1>
+
+<div id="parte2">
+    <div class="modulo1">
+        <img src="./assets/img/image1.jpeg" alt="Sticker 1">
+        <input type="number" id="sticker1" min="0" max="10">
+    </div>
+    <div class="modulo2">
+        <img src="./assets/img/image2.jpeg" alt="Sticker 2">
+        <input type="number" id="sticker2" min="0" max="10">
+    </div>
+    <div class="modulo3">
+        <img src="./assets/img/image3.jpeg" alt="Sticker 3">
+        <input type="number" id="sticker3" min="0" max="10">
+    </div>
+</div>
+    <br>
+<div id="resultado">
+    <div class="boton">
+        <button onclick="calcularStickers()">Calcular</button>
+    </div>
+    <p id="resultado1"></p>
+</div>
+
+
+<div id="parte3">
+    <h2>Ingrese su contraseña</h1>
+    <div id="casillas">
+    <select id="passwordSelect1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+       
+    </select>
+    <select id="passwordSelect2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <select id="passwordSelect3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    </div>
+        <br>
+    <div id="resultado">
+        <div id="boton">
+            <button onclick="verificarPassword()">Ingresar</button>
+            <br>
+            <p id="resultado2"></p>
+        </div>
+    </div>
+</div>
+
+    
+
+    <script src="./assets/js/script.js"></script> 
+</body>
+</html>
